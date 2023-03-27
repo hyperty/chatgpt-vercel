@@ -1,6 +1,6 @@
 .message pre {
   background-color: #1c1e29;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 0.4rem 1rem;
 }
 
@@ -44,6 +44,7 @@
   --un-prose-invert-links: var(--c-text);
   --un-prose-invert-code: var(--c-text);
   --un-prose-invert-body: var(--c-text);
+  max-width: 80ch;
 }
 
 .message a {

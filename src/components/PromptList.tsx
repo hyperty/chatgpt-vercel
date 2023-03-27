@@ -135,7 +135,7 @@ function Item(props: {
       }}
     >
       <p>{DescComponent}</p>
-      <p class="text-0.4em">{PromptComponent}</p>
+      <p class="text-0.85em">{PromptComponent}</p>
     </li>
   )
 }
