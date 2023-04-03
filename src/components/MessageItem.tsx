@@ -133,12 +133,12 @@ export default (props: Props) => {
         innerHTML={md
           .render(props.message.content)
           .replace(
-            /Vercel/g,
-            `<a href="http://vercel.com/?utm_source=busiyi&utm_campaign=oss" style="border-bottom:0">${vercel}</a>`
-          )
-          .replace(
             /OpenAI/g,
             `<a href="https://www.openai.com" style="border-bottom:0">${openai}</a>`
+          )
+          .replace(
+            /LenovoWarningSign/g,
+            `<p style="color: #e60000;">⚠️ 上网不涉密，涉密不上网。<strong>请勿</strong>🚫将任何<strong>部门敏感信息</strong>提交到此网站！</strong></u></p>`
           )}
       />
       <MessageAction
